@@ -1,0 +1,13 @@
+<h1>
+    Based on the exam scores you have {{message.result}}ed.
+
+    {% if message.score >= 50 %}
+    <h2>
+        You passed the exam with a score of {{message.score}}!
+    </h2>
+    {% else %}
+    <h2>
+        You failed the exam with a score of {{message.score}}.
+    </h2>
+    {% endif %}
+</h1>

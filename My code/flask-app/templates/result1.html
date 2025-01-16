@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exam Result</title>
+    </head>
+    <body>
+        <h1>
+            Based on your exam,
+        </h1>
+        {# This is a comment in Jinja2 #}
+        {% for key,value in message.items() %}
+        <p> {{ key }}: {{ value }} </p>
+        {% endfor %}
+    </body>
+</html>
